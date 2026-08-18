@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/photos/classic-thai-food-dishes-picture-id1312283557?b=1&k=20&m=1312283557&s=170667a&w=0&h=hXAmitFiH9z0mK3GZdMDbkkcSl8Em84LIIlkHnVhpPE=);
+    background-size: cover;
+    background-position: center;
+}
+
+#a{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#b{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#c{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+a{
+    position: absolute;
+    top: 320px;
+    left: 46%;
+    font-size: 30px;
+    border: none;
+}
+
+#d{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 80px;
+}
+#e{
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+
+#f{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+
+#g{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
